@@ -1,3 +1,4 @@
+;; Configuration for eglot package
 (prelude-require-package 'eglot)
 (require 'eglot)
 (add-to-list 'eglot-server-programs '(elixir-mode "/home/schuyler/elixir-ls/release/language_server.sh"))
